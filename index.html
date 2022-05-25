@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Listats.org | Home</title>
+	<link rel="icon" type="image/png" href="assets/img/listatsicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/fade.js"></script>
+
+</head>
+<body>
+
+    <!-- * testing remove later-->
+    <div id="overlay">
+
+
+    <!-- Navigation Bar -->
+    <nav class="d-flex justify-content-center mt-3">
+        <div class="topnav text-center">
+            <a class="active" href="index.html">Home</a>
+            <a href="search.html">Search a Player</a>
+            <a href="topplayers.html">Top Players</a>
+        </div>
+    </nav>
+	
+    <hr>
+    
+    <!-- Heading -->
+    <div class="desc text-center py-4">
+        <h2>Listats.org</h2>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="col-md-6 col-lg-6 col-11 mx-auto my-atuo search-box">
+        <div class="input-group form-container">
+				<input type="text" name="serach-box" class="form-control search-input" placeholder="Search a Player..." 
+                       autofocus="autofocus" autocomplete="off" onclick="setBgDark()">
+                <span class="input-group-btn">
+                    <button class="btn btn-search">
+                        <img src="assets/img/searchicon.png" alt="search-logo" width="45">
+                    </button>
+                </span>
+        </div>
+    </div>    
+
+    <!-- Project Descripton -->
+
+    <div class="desc text-center py-4">
+        <p>Listats.org is a free/libre, open-source stats lookup site using <a target="_blank" href="https://lichess.org/api">lichess API</a> powered by donations.</p> 
+    </div>                                                    
+
+    <!-- LichessTV -->
+
+    <div class="desc text-center my-4">
+        <h3>LichessTV</h3>
+    </div>
+
+    <div>
+        <iframe src="https://lichess.org/tv/frame?theme=blue&bg=dark" style="width: 400px; height: 444px;" allowtransparency="true" frameborder="0"></iframe>
+    </div>
+
+    <!-- Footer --> <hr class="mt-5">
+
+    <footer class="container-fluid text-center text-white text-muted imp sticky-footer footer">
+        <div class="row">
+            <div class="col-md-4">
+                <p><a href="imprint.html">Imprint</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a target="_blank" href="https://lichess.org/">Lichess.org</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a target="_blank" href="https://www.patreon.com/listats">Patreon</a></p>
+            </div>
+        </div>
+    </footer> 
+    </div>
+
+</body>
+</html>

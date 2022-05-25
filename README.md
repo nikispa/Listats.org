@@ -2,3 +2,8 @@
 wer braucht thomas
 
 niemand
+
+vier und dreissig
+
+thomas ist schwulO
+LOL
