@@ -7,3 +7,5 @@ vier und dreissig
 
 thomas ist schwulO
 LOL
+
+ha thomas still ein homo
