@@ -3,7 +3,7 @@ wer braucht thomas
 
 niemand
 
-vier und dreissig
+vier und zwanzig
 
 thomas ist schwulO
 LOL
