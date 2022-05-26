@@ -1,11 +1,6 @@
-# PayuNANDNikola_SuperCoolProject-SAT
-wer braucht thomas
+# Listats.org
 
-niemand
-
-vier und zwanzig
-
-thomas ist schwulO
-LOL
-
-ha thomas still ein homo
+Listats.org is a free/libre, open-source stats lookup site using https://lichess.org/api powered by donations.
+LOLLOLLOLLOLLOLLOLOLLLLOLLOLLOLLOLLOLLOLLOLLOL
+LOL Thomas still ein Homo eigentlich LOLLOLLOL
+LOLLOLLOLLOLLOLLOLLOLLOLLOLLOLLOLLOLLOLLOLLOLL
