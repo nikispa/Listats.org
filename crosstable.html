@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Listats.org | Crosstable</title>
+	<link rel="icon" type="image/png" href="assets/img/listatsicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/crosstable.js"></script>
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg d-flex justify-content-center mt-3">
+        <div class="topnav text-center">
+            <a href="index.html">Home</a>
+            <a href="search.html">Search</a>
+            <a class="active" href="crosstable.html">Crosstable</a>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <hr>
+    </div>
+
+    <!-- Heading -->
+    <div class="desc text-center py-4">
+        <h2>Crosstable</h2>
+    </div>                  
+    
+
+    <!-- Inputfields -->
+    <div class="container text-center">
+        <div class="col-md-6 col-lg-6 col-11 mx-auto my-atuo search-box pt-4">
+            <div class="input-group form-container">
+				    <input type="text" name="serach-box" class="form-control input-search" placeholder="Player1" 
+                       autofocus="autofocus" autocomplete="off" id="player1">
+                </div>
+            </div>    
+        <div class="col-md-6 col-lg-6 col-11 mx-auto my-atuo search-box pt-3 pb-4">
+            <div class="input-group form-container">
+                <input type="text" name="serach-box" class="form-control input-search" placeholder="Player2" 
+                       autofocus="autofocus" autocomplete="off" id="player2">
+            </div>
+        </div>    
+
+        <span class="input-group-btn">
+            <button class="btn btn-evaluate mt-4">
+                <img src="assets/img/evaluateicon.png" alt="evaluate" width="45px" onclick="run()">
+            </button>
+        </span>
+
+
+    </div>
+
+    <div class="container">
+        <table class="center mt-5 desc fs">
+            <tr>
+                <td style="border-top: none;"></td>
+                <th style="border-top: none;">Total Games:</th>
+                <td style="border-top: none;" id="totalgames">0</td>
+                <td style="border-top: none;"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <th id="player1name">Player1:</th>
+                <td id="player1wins">0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="border-bottom: none;"></td>
+                <th style="border-bottom: none;" id="player2name">Player2:</th>
+                <td style="border-bottom: none;" id="player2wins">0</td>
+                <td style="border-bottom: none;"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer --> 
+
+    <footer class="container-fluid text-center text-white text-muted imp sticky-footer footer">
+        <hr class="mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <p><a href="imprint.html">Imprint</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <p><a target="_blank" href="https://lichess.org/">Lichess.org</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <p><a target="_blank" href="https://www.patreon.com/listats">Patreon</a></p>
+            </div>
+        </div>
+    </footer> 
+
+</body>
+</html>
