@@ -41,7 +41,7 @@ hr {
     background-color:gray
 }
 
-/* SearchBar */
+/* SearchBarevaluate */
 .search-input {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -109,4 +109,22 @@ td, th {
 .sticky-footer {
     position: sticky;
     top: 94%;
+}
+
+.input-search {
+    border-radius: 15px;
+}
+
+.btn-evaluate {
+    color: #fff;
+    background-color:cornflowerblue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: none !important;
+}
+
+.fs {
+    font-size: 120%;
 }
