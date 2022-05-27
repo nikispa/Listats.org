@@ -34,6 +34,8 @@ function search() {
         	document.getElementById("bullet_rating").innerText = data.perfs.bullet.rating;
         	document.getElementById("rapid_games").innerText = data.perfs.rapid.games;
         	document.getElementById("rapid_rating").innerText = data.perfs.rapid.rating;
+        	document.getElementById("puzzle_games").innerText = "0";
+        	document.getElementById("puzzle_rating").innerText = "0";
         	document.getElementById("puzzle_games").innerText = data.perfs.puzzle.games;
         	document.getElementById("puzzle_rating").innerText = data.perfs.puzzle.rating;
             document.getElementById("searchbar").value = "";
