@@ -12,7 +12,7 @@ Listats.org is a free/libre, open-source stats lookup site using [Lichess api](h
 
 
 ## Listats Crosstable
-![listatsCrosstable](https://user-images.githubusercontent.com/88911601/170597342-554f4d53-5a2b-40d6-849b-9a54f1c5c8c2.png)
+![listatsCrosstable](https://user-images.githubusercontent.com/88911601/170681945-8c45e74b-9ef2-4048-9ff1-a48b299be9cf.png)
 
 
 
