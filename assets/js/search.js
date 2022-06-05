@@ -11,9 +11,6 @@ function search() {
 	let username = document.getElementById("searchbar").value;
     let url = `https://lichess.org/api/user/${username}`;
 
-	console.log(username);
-	console.log(url);
-
     fetch(url)
     	.then(response => response.json())
     	.then(data => {
