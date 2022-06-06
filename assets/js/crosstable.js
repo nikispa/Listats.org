@@ -1,4 +1,9 @@
 
+window.onload = function() {
+    activateListener("player1");
+    activateListener("player2");
+}
+
 function run() {
 	let player1 = document.getElementById("player1").value.toLowerCase();
     let player2 = document.getElementById("player2").value.toLowerCase();
@@ -15,5 +20,14 @@ function run() {
 
             document.getElementById("player1wins").innerText = `${data.users[player1]} Wins`;
             document.getElementById("player2wins").innerText = `${data.users[player2]} Wins`;
+    });
+}
+
+function activateListener(id) {
+    const element = document.getElementById(id);
+    element.addEventListener("keyup", (e) => {
+        if (e.key === "Enter") {
+            run();
+        }
     });
 }
