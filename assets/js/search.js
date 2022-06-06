@@ -5,6 +5,12 @@ window.onload = function() {
         search();
         sessionStorage.clear();
     }
+	let searchbar = document.getElementById("searchbar");
+	searchbar.addEventListener("keyup", (e) => {
+		if (e.key === "Enter") {
+			search()
+		}
+	});
 }
 
 function search() {
