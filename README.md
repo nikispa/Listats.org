@@ -4,15 +4,15 @@ Listats.org is a free/libre, open-source stats lookup site using [Lichess api](h
 
 
 ## Listats Home
-![listatsHome](https://user-images.githubusercontent.com/88911601/170594941-04b7ef84-4dbe-48c8-aaf9-38869997998c.png)    
-
-
+ ![listatsHome](https://user-images.githubusercontent.com/88911601/172171523-87ce7d6c-13de-4259-a865-cf3b8ae2176c.png)  
+ 
+ 
 ## Listats Player Search
-![listatsPlayerSearch](https://user-images.githubusercontent.com/88911601/170595003-a714ed4b-30b9-4c4d-bd9b-0bc2e4fb682f.png)    
+![listatsPlayerSearch](https://user-images.githubusercontent.com/88911601/172171568-f3a4b987-45a3-4352-b88b-428a5cd66e06.png)  
 
 
 ## Listats Crosstable
-![listatsCrosstable](https://user-images.githubusercontent.com/88911601/170681945-8c45e74b-9ef2-4048-9ff1-a48b299be9cf.png)
+![listatsCrosstable](https://user-images.githubusercontent.com/88911601/172171674-c51f239c-f0ba-460f-babb-5892cd5d9cca.png)  
 
 
 
