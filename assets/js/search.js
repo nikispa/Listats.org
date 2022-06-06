@@ -5,12 +5,8 @@ window.onload = function() {
         search();
         sessionStorage.clear();
     }
-	let searchbar = document.getElementById("searchbar");
-	searchbar.addEventListener("keyup", (e) => {
-		if (e.key === "Enter") {
-			search()
-		}
-	});
+	activateListener("indexsearchbar");
+	activateListener("searchbar");
 }
 
 function search() {
@@ -61,4 +57,22 @@ function searchHome() {
     let name = document.getElementById("indexsearchbar").value;
 	sessionStorage.setItem("name", name);
     location.replace("search.html");
+}
+
+function activateListener(id) {
+	try {
+		const element = document.getElementById(id);
+		element.addEventListener("keyup", (e) => {
+			if (id == "searchbar") {
+				if (e.key === "Enter") {
+					search();
+				}
+			} else {
+				if (e.key === "Enter") {
+					searchHome();
+				}
+			}
+		});
+	} catch (error) {
+	}
 }
