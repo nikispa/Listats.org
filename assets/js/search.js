@@ -29,8 +29,7 @@ function search() {
         	document.getElementById("draws").innerText = data.count.draw;
         	document.getElementById("blitz_games").innerText = data.perfs.blitz.games;
         	document.getElementById("blitz_rating").innerText = data.perfs.blitz.rating;
-			// pls someone figure it out how many games for blitz and rapid to get a rating
-			if (data.perfs.blitz.games < 10) {
+			if (data.perfs.blitz.games < 30) {
         		document.getElementById("blitz_rating").innerText += "?";
 			}
         	document.getElementById("bullet_games").innerText = data.perfs.bullet.games;
@@ -41,8 +40,7 @@ function search() {
         	document.getElementById("puzzle_games").innerText = "0";
         	document.getElementById("rapid_games").innerText = data.perfs.rapid.games;
         	document.getElementById("rapid_rating").innerText = data.perfs.rapid.rating;
-			// pls someone figure it out how many games for blitz and rapid to get a rating
-			if (data.perfs.rapid.games < 10) {
+			if (data.perfs.rapid.games < 30) {
         		document.getElementById("rapid_rating").innerText += "?";
 			}
         	document.getElementById("puzzle_games").innerText = "0";
