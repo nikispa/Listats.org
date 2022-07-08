@@ -21,6 +21,9 @@ function search() {
             } else {
                 document.getElementById("username").innerText = data.username + "  🔴";
             }
+			if (data.tosViolation) {
+				document.getElementById("username").innerText += "  🚫";
+			}
         	document.getElementById("created_at").innerText = new Date(data.createdAt).toLocaleDateString();
         	document.getElementById("last_seen").innerText = new Date(data.seenAt).toLocaleDateString();
         	document.getElementById("playtime").innerText = Math.round(data.playTime.total/60/60) + "h";
