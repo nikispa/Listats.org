@@ -11,11 +11,6 @@ function run() {
     let player2c = document.getElementById("player2").value;
     let url = `https://lichess.org/api/crosstable/${player1}/${player2}`;
 
-    // for status shit
-
-    let a = `https://lichess.org/api/user/${player1}`;
-    let b = `https://lichess.org/api/user/${player2}`;
-
     fetch(url)
     	.then(response => response.json())
     	.then(data => {
